@@ -8,7 +8,7 @@ module load calcua/2024a
 module load intel/2024a
 
 # Compile (can be done on login-node as well)
-mpiicpx -fopenmp prime-hybrid.cpp -o prime_hybrid
+mpiicpx -qopenmp prime-hybrid.cpp -o prime_hybrid
 
 # OpenMP variables
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
