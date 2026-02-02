@@ -21,7 +21,7 @@ bool is_prime(int x) {
 }
 
 int main(int argc, char** argv) {
-    int rank, size, n = 10000000;
+    int rank, size, n = 500000000;
     
     // Initialize MPI
     MPI_Init(&argc, &argv);
