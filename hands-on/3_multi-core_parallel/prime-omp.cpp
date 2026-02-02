@@ -23,7 +23,7 @@ bool is_prime(int x) {
 }
 
 int main() {
-    int n = 100000000;
+    int n = 500000000;
 
     // Start timer
     double start_time = omp_get_wtime();
