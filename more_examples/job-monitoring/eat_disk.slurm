@@ -4,7 +4,7 @@
 #SBATCH -t 10:00
 
 module purge
-module load calcua/2024a
-module load vsc-tutorial/202203-intel-2024a
+module load calcua/2025a
+module load vsc-tutorial/202510-intel-2025a
 
 eat_disk

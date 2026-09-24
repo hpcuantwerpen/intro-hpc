@@ -5,8 +5,8 @@
 #SBATCH --mem-per-cpu=2g
 
 module --force purge
-module load calcua/2024a
-module load vsc-tutorial/202203-intel-2024a
+module load calcua/2025a
+module load vsc-tutorial/202510-intel-2025a
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PROC_BIND=true

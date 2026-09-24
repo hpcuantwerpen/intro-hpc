@@ -6,7 +6,7 @@
 #SBATCH --partition=zen2
 
 module purge
-module load calcua/2024a
-module load Python/3.12.3-GCCcore-13.3.0
+module load calcua/2025a
+module load Python/3.13.1-GCCcore-14.2.0
 
 python pi.py

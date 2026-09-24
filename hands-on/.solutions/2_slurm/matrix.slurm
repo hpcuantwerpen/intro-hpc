@@ -8,8 +8,8 @@
 
 # Load necessary module (OpenMP support via GCC - in the foss toolchain)
 module purge
-module load calcua/2024a
-module load foss/2024a
+module load calcua/2025a
+module load foss/2025a
 
 # Compile the program
 gcc -fopenmp matrix_multiply.c -o matrix_multiply

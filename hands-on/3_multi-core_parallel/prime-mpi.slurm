@@ -4,8 +4,8 @@
 #SBATCH --ntasks=16 --cpus-per-task=1
 
 module --force purge
-module load calcua/2024a
-module load intel/2024a
+module load calcua/2025a
+module load intel/2025a
 
 # Compile (can be done on login-node as well)
 mpiicpx prime-mpi.cpp -o prime_mpi
