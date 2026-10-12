@@ -11,7 +11,7 @@
 #   log file as if they were never executed.
 #
 
-ml atools/1.5.1
+ml atools/1.5.1-GCCcore-14.2.0
 
 # log start of work item execution
 if (( $SLURM_ARRAY_TASK_ID <= 90 )); then

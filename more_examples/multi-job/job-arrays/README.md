@@ -18,7 +18,7 @@ python run_simulation.py $PARAMS
 
 ## EXAMPLE 2: batching/ chunking files
 
-10k small files needed to be processed, named `data_file_<number>.csv`. You can batch them per 100.
+1k small files needed to be processed, named `data_file_<number>.csv`. You can batch them per 100.
 
 ```
 #!/bin/bash

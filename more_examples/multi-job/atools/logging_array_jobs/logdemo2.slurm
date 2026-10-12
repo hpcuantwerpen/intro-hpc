@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1 --cpus-per-task=1 --mem-per-cpu=512M
 #SBATCH --time=10:00
 
-ml atools/1.5.1
+ml atools/1.5.1-GCCcore-14.2.0
 
 # log start of work item execution
 alog --state start

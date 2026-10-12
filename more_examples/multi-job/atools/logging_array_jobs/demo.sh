@@ -2,7 +2,7 @@
 # Demo for analysing log files of a regular array job.
 
 export SBATCH_ACCOUNT=ap_course_hpc_intro
-module load atools/1.5.1
+module load atools/1.5.1-GCCcore-14.2.0
 
 #
 # Submit first batch of jobs
